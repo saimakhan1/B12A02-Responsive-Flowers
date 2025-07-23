@@ -17,6 +17,7 @@
 .navbar .header1 {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .navbar ul {
@@ -37,7 +38,92 @@
   color: black;
 }
 
-/*******responsive design***********/
+/****************Banner Section************************/
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
+.banner .flower-description h1 {
+  font-size: 65px;
+  font-weight: bold;
+  padding-bottom: 30px;
+  padding-top: 50px;
+}
+.banner .flower-description p {
+  font-size: 22px;
+  color: #000;
+  opacity: 0.5;
+  font-family: Inter;
+}
+.banner .flower-img {
+}
+
+/***************Our Plants section*********************/
+.our-plants {
+  padding-top: 120px;
+  text-align: center;
+}
+.our-plants h1 {
+  font-size: 50px;
+}
+.our-plants p {
+  font-size: 22px;
+  color: #000;
+  opacity: 0.5;
+}
+.card-set {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: center;
+  gap: 15px;
+}
+
+.card h2 {
+  font-size: 22px;
+  margin-top: 20px;
+}
+.card h3 {
+  margin-bottom: 20px;
+}
+.card {
+  border: none;
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.card button {
+  background-color: #e95a08;
+  color: white;
+  border: none;
+  padding: 7px 10px;
+  width: 100%;
+}
+
+/***********flower and plants section************************/
+
+.flower-plants {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 30px;
+  margin-top: 50px;
+}
+.flower-plants img {
+  width: 540px;
+  height: 597px;
+}
+.flower-plants h1 {
+  margin-top: 60px;
+  font-size: 50px;
+}
+
+.flower-plants ul li {
+  margin-top: 20px;
+  font-size: 22px;
+  color: black;
+  opacity: 0.5;
+}
+
+/*******responsive design**************************************************/
 
 @media screen and (max-width: 576px) {
   .white {
@@ -49,7 +135,7 @@
   .mobile-header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .mobile-header li {
     list-style: none;
@@ -57,9 +143,102 @@
   .mobile-header a {
     text-decoration: none;
     color: black;
+    padding: 0px;
   }
   .mobile-header .logo2 img {
     width: 70%;
     height: 70%;
+  }
+  /************Responsive banner section*************/
+  .banner {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: left;
+    padding-left: 0;
+  }
+  .banner .flower-description h1 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 150px;
+  }
+  .banner .flower-description p {
+    font-size: 14px;
+    color: #000;
+    opacity: 0.5;
+    font-family: Inter;
+  }
+  .banner .flower-img {
+    width: 393px;
+    height: 245px;
+  }
+  /**responsive our-plant section***/
+  .our-plants {
+    padding-top: 60px;
+    text-align: center;
+  }
+  .our-plants h1 {
+    font-size: 24px;
+  }
+  .our-plants p {
+    font-size: 14px;
+    color: #000;
+    opacity: 0.5;
+  }
+  .card-set {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    gap: 7px;
+  }
+
+  .card h2 {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .card h3 {
+    margin-bottom: 20px;
+  }
+  .card {
+    border: none;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  .card img {
+    width: 171px;
+    height: 196px;
+  }
+  .card button {
+    background-color: #e95a08;
+    color: white;
+    border: none;
+    padding: 7px 10px;
+    width: 100%;
+  }
+
+  /*********** responsive flower and plants section************************/
+
+  .flower-plants {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    gap: 15px;
+    margin-top: 25px;
+  }
+  .flower-plants img {
+    width: 358px;
+    height: 396px;
+  }
+  .flower-plants h1 {
+    margin-top: 24px;
+    font-size: 25px;
+  }
+
+  .flower-plants ul li {
+    margin-top: 10px;
+    font-size: 14px;
+    color: black;
+    opacity: 0.5;
   }
 }
