@@ -164,7 +164,7 @@ body {
 .latest-deals-grid {
   display: grid;
   grid-template-columns: 467px 650px;
-  gap: 10px;
+  gap: 30px;
 }
 .latest-deals-grid h1 {
   color: white;
@@ -174,15 +174,15 @@ body {
 }
 .deals-left1 {
   background-image: url(../assets/deal-bloom.png);
-  height: calc((100% - 15px) / 2);
+  height: calc((100% - 25px) / 2);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 .deals-left2 {
   background-image: url(../assets/deal-ana.png);
-  height: calc((100% - 15px) / 2);
+  height: calc((100% - 25px) / 2);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
