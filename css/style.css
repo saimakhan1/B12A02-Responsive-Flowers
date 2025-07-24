@@ -279,11 +279,12 @@ body {
 }
 
 /*************************************************/
-/*******Responsive design**************************************************/
+/*******Responsive design********************************************************/
+/*************************************************/
 
 @media screen and (max-width: 576px) {
   .white {
-    padding: 7px 40px;
+    padding: 15px 40px;
   }
   .navbar .header1 {
     display: none;
@@ -385,6 +386,7 @@ body {
     grid-template-columns: repeat(1, auto);
     gap: 15px;
     margin-top: 25px;
+    justify-content: center;
   }
   .flower-plants img {
     width: 358px;
