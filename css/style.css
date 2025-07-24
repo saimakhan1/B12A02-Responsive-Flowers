@@ -250,7 +250,32 @@
   padding: 10px 35px;
   margin-left: -5px;
 }
-/*******responsive design**************************************************/
+/******************Footer Section****************************/
+
+.flower-foot {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.flower-foot .foot2 li,
+.flower-foot .foot3 li {
+  padding-bottom: 20px;
+}
+.flower-foot .foot4 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flower-foot p,
+.flower-foot li {
+  color: #6b7280;
+  text-decoration: none;
+  list-style: none;
+}
+
+/*************************************************/
+/*******Responsive design**************************************************/
 
 @media screen and (max-width: 576px) {
   .white {
@@ -460,6 +485,9 @@
   }
 
   /*****************responsive colorful branch*******************/
+  .colorful-branch {
+    max-width: 100%;
+  }
   .colorful-branch .colorful-branch-text {
     padding: 90px 20px;
   }
@@ -476,5 +504,17 @@
   .colorful-branch button {
     padding: 5px 18px;
     margin-left: -5px;
+  }
+  /*****************Responsive Footer Section****************************/
+  .flower-foot {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .flower-foot .foot4 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .flower-foot .foot4 .foot-img {
+    padding-right: 15px;
   }
 }
