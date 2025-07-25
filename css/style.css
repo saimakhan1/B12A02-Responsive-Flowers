@@ -179,6 +179,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 25px;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 .deals-left2 {
   background-image: url(../assets/deal-ana.png);
@@ -186,12 +188,16 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 .deals-right {
   background-image: url(../assets/deal-zabo.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 .deals-left1 .text-block,
 .deals-left2 .text-block {
